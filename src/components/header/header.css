@@ -1,5 +1,6 @@
 .header{
-    margin: 10px 10;
+    /* margin: 10px 10; */
+    margin-top: 70px;
 }
 .headerWrapper{
     /* width: 100%; */
@@ -12,8 +13,8 @@
     /* align-items: stretch; */
     align-items: center;
     justify-content: center;
-    height: 100%
-    
+    height: 100%;
+    /* margin-bottom: -20px; */
 
 }
 .headerLogoContainer{
@@ -21,11 +22,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: -20px;
+    
 }
 .logoImage{
     width: 10%;
     height: 10%;
     border-radius: 15%;
     object-fit: cover;
+    margin-top: 30px;
 }
 
