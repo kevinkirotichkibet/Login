@@ -13,9 +13,24 @@
     /* display: grid;
     align-items: baseline;; */
     /* position: fixed; */
-    text-align: left;
+    /* text-align: left; */
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     
 }
+.bodyTitleContainer{
+    margin:0;
+}
+
+
+
+
+.passwordIcon{
+    display: flex;
+    margin-bottom: 0;
+}
+
 
 
 .signupSpan{
