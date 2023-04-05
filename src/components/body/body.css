@@ -1,17 +1,24 @@
 .body{
     padding: 10px;
     margin-top: -30px;
+    position: relative;
 }
 .bodyWrapper{
+    position: relative;
+
     display: grid;
     justify-content: center;
     align-items: center;
     /* border-radius: 50%; */
 }
 .bodyLoginButtonContainer{
+    position: relative;
+
     margin-top: 5px;
 }
 .bodyUsernameTitle{
+    position: relative;
+
     /* display: grid;
     align-items: baseline;; */
     /* position: fixed; */
@@ -22,24 +29,34 @@
     
 }
 .bodyTitleContainer{
+    position: relative;
+
     margin:0;
 }
 
 .passwordIcon{
+    position: relative;
+
     display: flex;
     margin-bottom: 0;
 }
 .bodyLoginButtonContainer{
+    position: relative;
+
     display: flex;
     /* align-items: center; */
     justify-content: center;
 }
 .bodySignupContainer{
+    position: relative;
+
     display: flex;
     justify-content: center;
 }
 
 .signupSpan{
+    position: relative;
+
     cursor: pointer;
     color: orangered;
 

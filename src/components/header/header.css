@@ -1,8 +1,10 @@
 .header{
     /* margin: 10px 10; */
     margin-top: 70px;
+    position: relative;
 }
 .headerWrapper{
+    position: relative;
     /* width: 100%; */
     padding: 10px;
     /* flex: 3; */
@@ -18,6 +20,8 @@
 
 }
 .headerLogoContainer{
+    position: relative;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,9 +30,13 @@
     
 }
 .headerTitleContainer{
+    position: relative;
+
     color: orangered;
 }
 .logoImage{
+    position: relative;
+
     width: 10%;
     height: 10%;
     border-radius: 15%;
