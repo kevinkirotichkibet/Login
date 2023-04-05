@@ -49,8 +49,10 @@
 }
 .bodySignupContainer{
     position: relative;
-
+    /* background-color: darkgrey; */
     display: flex;
+    /* flex-direction: column;
+    width: 100%; */
     justify-content: center;
 }
 

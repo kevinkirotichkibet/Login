@@ -37,6 +37,7 @@ export default function Body() {
                 </div>
                 <hr />
                 <div className="bodySignupContainer">
+                    {/* <hr />       */}
                     <h5 className="signupLink">New to Njiani? <span  className="signupSpan">Sign Up</span></h5>
                 </div>
                 
