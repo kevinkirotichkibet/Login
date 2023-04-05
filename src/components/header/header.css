@@ -25,6 +25,9 @@
     padding-bottom: -20px;
     
 }
+.headerTitleContainer{
+    color: orangered;
+}
 .logoImage{
     width: 10%;
     height: 10%;

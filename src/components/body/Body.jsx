@@ -12,7 +12,7 @@ export default function Body() {
     <div className='body'>
         <div className="bodyWrapper">
             <div className="bodyTopContainer">
-                <h2 className="bodyTitle">Login to your account</h2>
+                <h5 className="bodyTitle">Login to your account</h5>
             </div>
             <div className="bodyMiddleContainer">
                 <div className="bodyTitleContainer">

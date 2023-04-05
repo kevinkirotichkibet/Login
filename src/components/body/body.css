@@ -6,6 +6,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    /* border-radius: 50%; */
 }
 .bodyLoginButtonContainer{
     margin-top: 5px;
