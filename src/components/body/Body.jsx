@@ -35,9 +35,12 @@ export default function Body() {
                     {/* <button className="bodyLoginButton">Log In</button> */}
                     <Button  variant="contained">Login</Button>
                 </div>
+                <hr />
                 <div className="bodySignupContainer">
                     <h5 className="signupLink">New to Njiani? <span  className="signupSpan">Sign Up</span></h5>
                 </div>
+                
+
             </div>
         </div>
       

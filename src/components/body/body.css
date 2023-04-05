@@ -23,15 +23,19 @@
     margin:0;
 }
 
-
-
-
 .passwordIcon{
     display: flex;
     margin-bottom: 0;
 }
-
-
+.bodyLoginButtonContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.bodySignupContainer{
+    display: flex;
+    justify-content: center;
+}
 
 .signupSpan{
     color: blue;
