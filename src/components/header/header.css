@@ -1,0 +1,29 @@
+.header{
+    margin: 10px 10;
+}
+.headerWrapper{
+    /* width: 100%; */
+    padding: 10px;
+    /* flex: 3; */
+    /* text-align: center; */
+    display: flex !important;
+
+    flex-direction: column ;
+    /* align-items: stretch; */
+    align-items: center;
+    justify-content: center;
+    height: 100%
+    
+
+}
+.headerLogoContainer{
+    align-items: center;
+    justify-content: center;
+}
+.logoImage{
+    width: 10%;
+    height: 10%;
+    border-radius: 15%;
+    object-fit: cover;
+}
+

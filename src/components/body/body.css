@@ -1,0 +1,24 @@
+.body{
+    padding: 10px;
+}
+.bodyWrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.bodyLoginButtonContainer{
+    margin-top: 5px;
+}
+.bodyUsernameTitle{
+    /* display: grid;
+    align-items: baseline;; */
+    /* position: fixed; */
+    text-align: left;
+    
+}
+
+
+.signupSpan{
+    color: blue;
+
+}
