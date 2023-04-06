@@ -33,9 +33,9 @@ export default function Body() {
                 </div>
                 <div className="bodyLoginButtonContainer">
                     {/* <button className="bodyLoginButton">Log In</button> */}
-                    <Button  variant="contained">Login</Button>
+                    <Button className='loginButton' variant="contained">Login</Button>
                 </div>
-                <hr />
+                <hr className='hrLink'/>
                 <div className="bodySignupContainer">
                     {/* <hr />       */}
                     <h5 className="signupLink">New to Njiani? <span  className="signupSpan">Sign Up</span></h5>
