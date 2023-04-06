@@ -1,11 +1,11 @@
 .homeContainer{
-    background-color: orangered;
+    background-color: #ff8400;
     position: relative;
 }
 
 .homeWrapper{
     background-color: white;
-    margin: 0 450px 0 450px;
+    margin: 0 600px 0 600px;
     position: inherit;
     /* display: flex; */
     /* flex-direction: column; */

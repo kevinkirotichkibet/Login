@@ -1,6 +1,6 @@
 .header{
     /* margin: 10px 10; */
-    margin-top: 70px;
+    /* margin-top: 70px; */
     position: relative;
 }
 .headerWrapper{
@@ -15,30 +15,31 @@
     /* align-items: stretch; */
     align-items: center;
     justify-content: center;
-    height: 100%;
+    /* height: 100%; */
     /* margin-bottom: -20px; */
 
 }
 .headerLogoContainer{
     position: relative;
-
+    /* height: 200px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: -20px;
+    /* padding-bottom: -20px; */
     
 }
 .headerTitleContainer{
     position: relative;
-
-    color: orangered;
+    margin-top: -5px;
+    padding-bottom: 20px;
+    color: #432C7A;
+    /* padding: 20px; */
 }
 .logoImage{
     position: relative;
-
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: 15%;
     border-radius: 15%;
     object-fit: cover;
     margin-top: 30px;
