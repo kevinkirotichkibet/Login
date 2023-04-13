@@ -5,7 +5,7 @@ import './signUp.css'
 export default function SignUp() {
   return (
     <div>
-      SignUP
+      SignUp Page ...
     </div>
   )
 }
