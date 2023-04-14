@@ -5,7 +5,7 @@
     margin: 30px 25% 0 25%;
     background-color: #fff;
     height: 500px;
-    border-radius: 10%;
+    border-radius: 8%;
 }
 .bodyLeftContainer{
     margin-top: 100px;
@@ -43,7 +43,7 @@
 
 .bodyContainerHr{
     display: flex;
-    border-left: 2px solid green;
+    border-left: 2px solid rgb(61, 61, 61);
     height: 80%;
     padding-top: 50px;
 }
