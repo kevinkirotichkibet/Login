@@ -43,12 +43,14 @@
 
 .bodyContainerHr{
     display: flex;
-    border-left: 2px solid rgb(61, 61, 61);
+    border-left: 2px solid rgb(189, 189, 189);
     height: 80%;
-    padding-top: 50px;
+     padding-top: 65px;
 }
-/* .bodyRightContainer{
-    display: flex;
-    flex-direction: columns;
-    justify-content: center;
-} */
+.bodyRightContainer{
+    font-family: serif;
+    justify-content: start;
+} 
+,bodyUsernameContainer{
+    justify-content: start;
+}
