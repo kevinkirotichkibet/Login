@@ -18,11 +18,23 @@ export default function BodySignUp() {
             <Button className='twitterLoginButton' variant='contained' style={{ backgroundColor: '#1C99E6' }} ><TwitterIcon className='twitterIcon' />Twitter</Button>
             </div>
           </div>
+            </div>
           <div className="verticalLine"><hr className='bodyContainerHr'></hr></div>
 
-        </div>
         <div className="bodyWrapperRight">
-          Right
+          <div className="bodyRightContainer">
+            <div className="bodyUsernameContainer">
+
+            <h5 className="username">Username</h5>
+            <input placeholder='Enter Username' name="" id="" />
+            </div>
+
+            <div className="bodyEmailContainer">
+              <div className="bodyEmailContainer">
+                
+              </div>
+            </div>
+          </div>
         </div>
 
 

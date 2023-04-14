@@ -42,7 +42,10 @@
 }
 
 .bodyContainerHr{
-    border-left: 6px solid green;
-    height: 150px;
+    display: flex;
+    border-left: 2px solid green;
+    height: 80%;
+    padding-top: 50px;
 }
+
 
