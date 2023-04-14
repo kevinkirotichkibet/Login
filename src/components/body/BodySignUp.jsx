@@ -38,8 +38,8 @@ export default function BodySignUp() {
               <input placeholder='Enter Password' type="password" className="passwordInput" />
             </div>
             <div className="confirmPasswordContainer">
-              <h5 className="confirmPasswordText">Password</h5>
-              <input placeholder='Enter Password' type="password" className="passwordInput" />
+              <h5 className="confirmPasswordText">Confirm Password</h5>
+              <input placeholder='Confirm Password' type="password" className="passwordInput" />
             </div>
           </div>
         </div>
