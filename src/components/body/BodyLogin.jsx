@@ -10,7 +10,7 @@ export default function Body() {
 
   return (
 
-    <div className='body'>
+    <div className='bodyLogin'>
         <div className="bodyWrapper">
             <div className="bodyTopContainer">
                 <h5 className="bodyTitle">Login to your account</h5>
