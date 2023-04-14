@@ -1,0 +1,46 @@
+
+.headerSignupWrapper{
+    /* margin: 10px 10; */
+    /* margin-top: 70px; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;;
+    /* height: 10%;  */
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+.headerContainerLeft{
+    /* height: 10px; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: start;
+
+
+}
+.headerLogoContainer{
+    /* height: 4px; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.headerLogoImage{
+    display: flex;
+    height: 25px;
+}
+.headerContainerRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.headerAlreadyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.alreadyHaveAccount{
+    padding-right: 10px;
+}
+
