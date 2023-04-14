@@ -47,5 +47,8 @@
     height: 80%;
     padding-top: 50px;
 }
-
-
+/* .bodyRightContainer{
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+} */

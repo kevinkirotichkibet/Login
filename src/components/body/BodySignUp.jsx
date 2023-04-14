@@ -30,9 +30,16 @@ export default function BodySignUp() {
             </div>
 
             <div className="bodyEmailContainer">
-              <div className="bodyEmailContainer">
-                
-              </div>
+                <h5 className="emailText">Email</h5>
+                <input placeholder='Enter Email Address' type="email" className="usernameInput" />
+            </div>
+            <div className="passwordContainer">
+              <h5 className="passwordText">Password</h5>
+              <input placeholder='Enter Password' type="password" className="passwordInput" />
+            </div>
+            <div className="confirmPasswordContainer">
+              <h5 className="confirmPasswordText">Password</h5>
+              <input placeholder='Enter Password' type="password" className="passwordInput" />
             </div>
           </div>
         </div>
