@@ -8,14 +8,14 @@
     /* height: 10%;  */
     width: 100%;
     justify-content: space-around;
-    margin: 0 50px 0 50px;
+    margin: 0 40px 0 40px;
 }
 .headerContainerLeft{
     /* height: 10px; */
     display: flex;
     /* flex-direction: row; */
     justify-content: start;
-
+    padding-left: 300px;
 
 }
 .headerLogoContainer{
@@ -33,6 +33,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
+    padding-right: 400px;
 }
 .headerAlreadyContainer{
     display: flex;
