@@ -1,22 +1,12 @@
 import React from 'react'
-import './body.css'
+import './bodyLogin.css'
 import Button from '@mui/material/Button';
 // import image from './../../my_logo.svg'
 import PersonIcon from '@mui/icons-material/Person';
 import LockIcon from '@mui/icons-material/Lock';
 // import Icon from '@mui/material/Icon';
-// import {Notifications} from "@mui/icons-material"
-import {useNavigate, Link } from 'react-router-dom';
-// import SignUp from '../../pages/signUp/SignUp';
 
 export default function Body() {
-    const navigate = useNavigate();
-
-  const navigateToSignUp = () => {
-    // 👇️ navigate to /contacts
-    navigate('/src/pages/signUp/SignUp',{replace:true});
-  };
-
 
   return (
 
@@ -49,7 +39,7 @@ export default function Body() {
                 <hr className='hrLink'/>
                 <div className="bodySignupContainer">
                     {/* <hr />       */}
-                    <h5 className="signupLink">New to Njiani? <Link   className="signupSpan" to={navigateToSignUp}>Sign Up</Link></h5>
+                    <h5 className="signupLink">New to Njiani? <span   className="signupSpan">Sign Up</span></h5>
 
                 </div>
                 

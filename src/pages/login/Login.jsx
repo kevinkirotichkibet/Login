@@ -2,7 +2,7 @@ import React from 'react'
 import './login.css'
 
 import Header from '../../components/header/Header'
-import Body from '../../components/body/Body'
+import Body from '../../components/body/BodyLogin'
 
 
 export default function Home() {
