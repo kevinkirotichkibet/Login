@@ -1,0 +1,54 @@
+.bodySignUp{
+    display: flex;
+    flex-direction: row;;
+    justify-content:space-around;
+    margin: 30px 25% 0 25%;
+    background-color: #fff;
+    height: 500px;
+    border-radius: 10%;
+}
+.bodyLeftContainer{
+    margin-top: 100px;
+}
+
+
+.facebookContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.facebookLoginButton{
+    width: 130px;
+
+}
+.facebookIcon{
+    padding-right: 10px;
+}
+
+
+.twitterContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.twitterLoginButton{
+    
+    width: 130px;
+}
+.twitterIcon{
+    padding-right: 10px;
+
+}
+
+.bodyContainerHr{
+    display: flex;
+    border-left: 2px solid green;
+    height: 80%;
+    padding-top: 50px;
+}
+/* .bodyRightContainer{
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+} */

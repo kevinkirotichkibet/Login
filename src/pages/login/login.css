@@ -1,0 +1,15 @@
+.homeContainer{
+    background-color: #ff8400;
+    position: relative;
+}
+
+.homeWrapper{
+    background-color: white;
+    margin: 0 38% 0 38%;
+    position: inherit;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 10%;
+}

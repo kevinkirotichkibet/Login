@@ -1,15 +1,16 @@
 import React from 'react'
-import './body.css'
+import './bodyLogin.css'
 import Button from '@mui/material/Button';
 // import image from './../../my_logo.svg'
 import PersonIcon from '@mui/icons-material/Person';
 import LockIcon from '@mui/icons-material/Lock';
 // import Icon from '@mui/material/Icon';
-// import {Notifications} from "@mui/icons-material"
 
 export default function Body() {
+
   return (
-    <div className='body'>
+
+    <div className='bodyLogin'>
         <div className="bodyWrapper">
             <div className="bodyTopContainer">
                 <h5 className="bodyTitle">Login to your account</h5>
@@ -38,7 +39,8 @@ export default function Body() {
                 <hr className='hrLink'/>
                 <div className="bodySignupContainer">
                     {/* <hr />       */}
-                    <h5 className="signupLink">New to Njiani? <span  className="signupSpan">Sign Up</span></h5>
+                    <h5 className="signupLink">New to Njiani? <span   className="signupSpan">Sign Up</span></h5>
+
                 </div>
                 
 
