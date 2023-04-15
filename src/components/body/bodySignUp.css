@@ -47,10 +47,16 @@
     height: 80%;
      padding-top: 65px;
 }
+.bodyWrapperRight{
+    display: flex;
+    padding-left: -100px;
+}
 .bodyRightContainer{
     font-family: serif;
     justify-content: start;
+    padding-top: 50px;
+    
 } 
-,bodyUsernameContainer{
+.bodyUsernameContainer{
     justify-content: start;
 }
