@@ -40,23 +40,60 @@
     padding-right: 10px;
 
 }
+.googleContainer{
+    padding-top: 10px;
+}
+.googleIcon{
+    padding-right: 10px;
+}
+.googleLoginButton{
+    width: 130px;
+}
+
+
 
 .bodyContainerHr{
     display: flex;
     border-left: 2px solid rgb(189, 189, 189);
-    height: 80%;
+    height: 75%;
      padding-top: 65px;
 }
 .bodyWrapperRight{
     display: flex;
-    padding-left: -100px;
+    
 }
 .bodyRightContainer{
     font-family: serif;
     justify-content: start;
     padding-top: 50px;
+    width: 100px;
+    padding-right: 200px;
     
 } 
 .bodyUsernameContainer{
     justify-content: start;
+}
+.bodyIconUsername{
+    display: flex;
+    flex-direction: row;;
+    /* padding-right: -100px; */
+    /* margin-right: -50px; */
+}
+.bodyEmailContainer{
+    display: flex;
+    flex-direction: row;
+}
+.bodyIconPassword{
+    display: flex;
+    flex-direction: row;
+}
+.confirmPasswordContainer{
+    width: 130px;
+}
+.signupButtonContainer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+    padding-left: 45px;
+    width: 150px;
 }

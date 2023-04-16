@@ -3,6 +3,12 @@ import './bodySignUp.css'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Button from '@mui/material/Button';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import PersonIcon from '@mui/icons-material/Person';
+import EmailIcon from '@mui/icons-material/Email';
+import LockIcon from '@mui/icons-material/Lock';
+import GoogleIcon from '@mui/icons-material/Google';
+
+
 
 export default function BodySignUp() {
   return (
@@ -17,6 +23,9 @@ export default function BodySignUp() {
             <div className="twitterContainer">
             <Button className='twitterLoginButton' variant='contained' style={{ backgroundColor: '#1C99E6' }} ><TwitterIcon className='twitterIcon' />Twitter</Button>
             </div>
+            <div className="googleContainer">
+            <Button className='googleLoginButton' variant='contained' style={{ backgroundColor: '#EB4335' }} ><GoogleIcon className='googleIcon' />Google</Button>
+            </div>
           </div>
             </div>
           <div className="verticalLine"><hr className='bodyContainerHr'></hr></div>
@@ -26,20 +35,37 @@ export default function BodySignUp() {
             <div className="bodyUsernameContainer">
 
             <h5 className="username">Username</h5>
-            <input placeholder='Enter Username' name="" id="" />
-            </div>
+            <div className="bodyIconUsername">
 
-            <div className="bodyEmailContainer">
+            <PersonIcon /> 
+            <input placeholder='Enter Username' name="" id="" />  </div>
+            </div>
+            <div className="bodyIconEmail">
+
                 <h5 className="emailText">Email</h5>
+                <div className="bodyEmailContainer">
+                <EmailIcon/>
                 <input placeholder='Enter Email Address' type="email" className="usernameInput" />
+                </div>
             </div>
             <div className="passwordContainer">
               <h5 className="passwordText">Password</h5>
+              <div className="bodyIconPassword">
+              <LockIcon/>
               <input placeholder='Enter Password' type="password" className="passwordInput" />
+              </div>
             </div>
             <div className="confirmPasswordContainer">
               <h5 className="confirmPasswordText">Confirm Password</h5>
+              <div className="bodyIconPassword">
+              <LockIcon/>
               <input placeholder='Confirm Password' type="password" className="passwordInput" />
+              </div>
+
+            </div>
+            <div className="signupButtonContainer">
+            <Button className='submitButton' variant="contained">Sign Up</Button>
+
             </div>
           </div>
         </div>
