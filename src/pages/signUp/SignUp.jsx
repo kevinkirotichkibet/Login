@@ -6,7 +6,7 @@ import BodySignUp from '../../components/body/BodySignUp'
 
 export default function SignUp() {
   return (
-    <div>
+    <div className='signUpContainer'>
       <HeaderSignUp/>
       <BodySignUp />
     </div>

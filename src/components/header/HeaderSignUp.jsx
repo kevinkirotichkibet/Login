@@ -2,7 +2,7 @@ import React from 'react'
 import './headerSignUp.css'
 
 import Button from '@mui/material/Button';
-import Logo from './../../assets/road_logo.svg'
+import Logo from './../../assets/road_logo_green.png'
 
 
 export default function HeaderSignUp() {

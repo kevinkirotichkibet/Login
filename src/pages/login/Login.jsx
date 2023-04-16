@@ -7,16 +7,16 @@ import Body from '../../components/body/BodyLogin'
 
 export default function Home() {
   return (
-    <>
-    <div className="homeContainer">
-        <HeaderLogin />
-    <div className="homeWrapper">
+    <div className='homePageContainer'>
+      {/* <div className="homeContainer"> */}
+          <HeaderLogin />
+      <div className="homeWrapper">
+          <Body />
 
-        <Body />
+      {/* </div> */}
+      </div>
+
+
     </div>
-    </div>
-
-
-    </>
   )
 }
