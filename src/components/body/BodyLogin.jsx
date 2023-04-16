@@ -5,10 +5,31 @@ import Button from '@mui/material/Button';
 import PersonIcon from '@mui/icons-material/Person';
 import LockIcon from '@mui/icons-material/Lock';
 // import Icon from '@mui/material/Icon';
+import {useState} from 'react'
+import { Navigate } from "react-router-dom";
+
+
 
 export default function Body() {
+    
+    
+    
+    // function handleLogin() {
+    //     // perform login logic here, e.g. sending a login request to the server
+    //     // if login is successful, navigate to the main page
+    //     Navigate("/src/pages/signUp.jsx");
+    //   }
+    
 
-  return (
+    const [username, setUsername] = useState('')
+    const handleChange = (e) => {
+    const value = e.target.value
+    setUsername(value)
+    Navigate("/src/pages/signUp.jsx");
+  }
+
+    
+    return (
 
     <div className='bodyLogin'>
         <div className="bodyWrapper">
@@ -34,7 +55,7 @@ export default function Body() {
                 </div>
                 <div className="bodyLoginButtonContainer">
                     {/* <button className="bodyLoginButton">Log In</button> */}
-                    <Button className='loginButton' variant="contained">Login</Button>
+                    <Button className='loginButton' variant="contained" onClick={handleChange} >Login</Button>
                 </div>
                 <hr className='hrLink'/>
                 <div className="bodySignupContainer">
