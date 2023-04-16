@@ -41,7 +41,7 @@ export default function Body() {
                 <span className="bodyUsernameTitle">Username</span>
                 </div>
                 <div className="bodyUsernameContainer">
-                    <PersonIcon />
+                    <PersonIcon className='usernameIcon' />
                     <input placeholder='Username' className="bodyUsernameInput" />
                 </div>
 

@@ -33,12 +33,20 @@
 
     margin:0;
 }
+.bodyUsernameInput{
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+.usernameIcon{
+    color: coral;
+}
 
 .passwordIcon{
     position: relative;
 
     display: flex;
     margin-bottom: 0;
+    color: coral;
 }
 .bodyLoginButtonContainer{
     position: relative;
@@ -56,6 +64,11 @@
     /* flex-direction: column;
     width: 100%; */
     justify-content: center;
+}
+
+.bodyPasswordInput{
+    border-radius: 8px;
+    border: 2px solid #ccc;
 }
 
 .signupSpan{
