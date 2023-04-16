@@ -56,7 +56,8 @@
     display: flex;
     border-left: 2px solid rgb(189, 189, 189);
     height: 75%;
-     padding-top: 65px;
+    padding-top: 50%;
+    margin-top: 60px;
 }
 .bodyWrapperRight{
     display: flex;
