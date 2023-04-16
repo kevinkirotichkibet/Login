@@ -35,15 +35,17 @@ export default function BodySignUp() {
             <div className="bodyUsernameContainer">
 
             <h5 className="username">Username</h5>
+
+            {/* <label htmlFor="username" className="required">Username</label> */}
             <div className="bodyIconUsername">
 
             <PersonIcon /> 
             <input placeholder='Enter Username' name="" id="" />  </div>
             </div>
-            <div className="bodyIconEmail">
+            <div className="bodyEmailContainer">
 
                 <h5 className="emailText">Email</h5>
-                <div className="bodyEmailContainer">
+                <div className="bodyIconEmail">
                 <EmailIcon/>
                 <input placeholder='Enter Email Address' type="email" className="usernameInput" />
                 </div>
@@ -61,8 +63,14 @@ export default function BodySignUp() {
               <LockIcon/>
               <input placeholder='Confirm Password' type="password" className="passwordInput" />
               </div>
-
+              
             </div>
+
+            <div className="acceptTermsContainer">
+              <input type="checkbox" className='myCheckbox' value="yes" />
+              <label htmlFor="myCheckbox" className="myCheckboxLabel">I have read and accept the <span className="checkboxSpan">terms & condition</span></label>
+            </div>
+
             <div className="signupButtonContainer">
             <Button className='submitButton' variant="contained">Sign Up</Button>
 

@@ -66,7 +66,7 @@
 .bodyRightContainer{
     font-family: serif;
     justify-content: start;
-    padding-top: 50px;
+    padding-top: 70px;
     width: 100px;
     padding-right: 200px;
     
@@ -74,23 +74,65 @@
 .bodyUsernameContainer{
     justify-content: start;
 }
+.username::after{
+    padding-left: 2px;
+    content: "*";
+    color: red;
+    margin-right: 5px;
+}
 .bodyIconUsername{
     display: flex;
     flex-direction: row;;
+    margin-top: -20px;
+
     /* padding-right: -100px; */
     /* margin-right: -50px; */
 }
 .bodyEmailContainer{
+    width: 130px;
+}
+.emailText::after{
+    padding-left: 2px;
+    content: "*";
+    color: red;
+    margin-right: 5px;
+}
+
+.bodyIconEmail{
     display: flex;
     flex-direction: row;
+    margin-top: -20px;
+
+}
+.passwordText::after{
+    padding-left: 2px;
+    content: "*";
+    color: red;
+    margin-right: 5px;
 }
 .bodyIconPassword{
     display: flex;
     flex-direction: row;
+    margin-top: -20px;
+
 }
 .confirmPasswordContainer{
     width: 130px;
 }
+.confirmPasswordText::after{
+    padding-left: 2px;
+    content: "*";
+    color: red;
+    margin-right: 5px;
+}
+.acceptTermsContainer{
+    width: 250px;
+    padding-top: 10px;
+}
+.checkboxSpan{
+    color: #f16417;
+}
+
 .signupButtonContainer{
     display: flex;
     margin-top: 10px;
