@@ -40,14 +40,14 @@ export default function BodySignUp() {
             <div className="bodyIconUsername">
 
             <PersonIcon /> 
-            <input placeholder='Enter Username' name="" id="" />  </div>
+            <input placeholder='Enter Username' name="" className='usernameInput' />  </div>
             </div>
             <div className="bodyEmailContainer">
 
                 <h5 className="emailText">Email</h5>
                 <div className="bodyIconEmail">
                 <EmailIcon/>
-                <input placeholder='Enter Email Address' type="email" className="usernameInput" />
+                <input placeholder='Enter Email Address' type="email" className="emailInput" />
                 </div>
             </div>
             <div className="passwordContainer">
