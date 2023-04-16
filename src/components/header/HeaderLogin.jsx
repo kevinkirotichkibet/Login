@@ -3,7 +3,7 @@ import './headerLogin.css'
 
 // import MyLogo from './../../3.png'
 // import Logo from './../../assets/road_logo.svg'
-import Logo from './../../assets/road_logo_green.png'
+import Logo from './../../assets/road_logo_green2.png'
 
 
 export default function Header() {

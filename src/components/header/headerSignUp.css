@@ -13,9 +13,10 @@
 .headerContainerLeft{
     /* height: 10px; */
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     justify-content: start;
     padding-left: 300px;
+    /* width: 150px; */
 
 }
 .headerLogoContainer{
@@ -23,12 +24,14 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-direction: row;;
 }
 .headerLogoImage{
     display: flex;
-    height: 25px;
+    height: 40px;
 }
 .headerTitle{
+    padding-left: 10px;
     color: coral;
 }
 
@@ -49,5 +52,8 @@
 .alreadyHaveAccount{
     padding-right: 10px;
     color: coral
+}
+.loginButton{
+    width: 80px;
 }
 
